@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Nav from '../components/Nav'
+import DefaultLayout from '../layouts/Default';
 import Jumbotron from '../components/Jumbotron';
 
 export default function Home() {
@@ -11,10 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
  
-      <main>
-        <Nav />
+      <DefaultLayout>
         <Jumbotron />
-      </main>
+      </DefaultLayout>
     </div>
   )
 }

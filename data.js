@@ -1,14 +1,23 @@
+import Image1 from './images/new-york.jpeg'
+import Image2 from './images/los-angeles.jpeg'
+import Image3 from './images/chicago.jpeg'
+import Image4 from './images/houston.jpeg'
+import Image5 from './images/phoenix.jpeg'
+import Image6 from './images/philadelphia.jpeg'
+import Image7 from './images/san-antonio.jpeg'
+import Image8 from './images/san-diego.jpeg'
+import Image9 from './images/dallas.jpeg'
+import Image10 from './images/austin.jpeg'
+
+
 export const cities = [
     {
         id: 1,
         name: "New York",
         state: "New York",
-        region: "Mid-Atlantic",
         population: "8,804,190",
-        image: {
-            url: "https://images.unsplash.com/photo-1536031696538-924fe11c7037?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            alt: "new-york",
-        },
+        img: Image1,
+        alt: 'new-york',
         nickname: "The Big Apple",
         timezone: "Eastern",
     },
@@ -16,12 +25,9 @@ export const cities = [
         id: 2,
         name: "Los Angeles",
         state: "California",
-        region: "Southern California",
         population: "3,898,747",
-        image: {
-            url: "https://images.unsplash.com/flagged/photo-1575555201693-7cd442b8023f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
-            alt: "los-angeles",
-        },
+        img: Image2,
+        alt: 'los-angeles',
         nickname: "City of Angels",
         timezone: "Pacific",
     },
@@ -29,12 +35,9 @@ export const cities = [
         id: 3,
         name: "Chicago",
         state: "Illinois",
-        region: "Midwest",
         population: "2,746,388",
-        image: {
-            url: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1544&q=80",
-            alt: "chicago",
-        },
+        img: Image3,
+        alt: 'chicago',
         nickname: "The Windy City",
         timezone: "Central",
     },
@@ -42,12 +45,9 @@ export const cities = [
         id: 4,
         name: "Houston",
         state: "Texas",
-        region: "Southwest",
         population: "2,304,580",
-        image: {
-            url: "https://images.unsplash.com/photo-1609445333560-e03ba271b2ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
-            alt: "houston",
-        },
+        img: Image4,
+        alt: 'houston',
         nickname: "The Space City",
         timezone: "Central",
     },
@@ -55,12 +55,9 @@ export const cities = [
         id: 5,
         name: "Phoenix",
         state: "Arizona",
-        region: "Southwest",
         population: "1,608,139",
-        image: {
-            url: "https://images.unsplash.com/photo-1607555143656-3fb26fc7ed35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-            alt: "phoenix",
-        },
+        img: Image5,
+        alt: 'phoenix',
         nickname: "The Valley",
         timezone: "Mountain",
     },
@@ -68,12 +65,9 @@ export const cities = [
         id: 6,
         name: "Philadelphia",
         state: "Pennsylvania",
-        region: "Mid-Atlantic",
         population: "1,603,797",
-        image: {
-            url: "https://images.unsplash.com/photo-1618165831377-e0b64acea346?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            alt: "philadelphia",
-        },
+        img: Image6,
+        alt: 'philadelphia',
         nickname: "The City of Brotherly Love",
         timezone: "Eastern",
     },
@@ -81,12 +75,9 @@ export const cities = [
         id: 7,
         name: "San Antonio",
         state: "Texas",
-        region: "Southwest",
         population: "1,434,625",
-        image: {
-            url: "https://images.unsplash.com/photo-1514510249063-e0faf6c6ec0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
-            alt: "san-antonio",
-        },
+        img: Image7,
+        alt: 'san-antonio',
         nickname: "The Alamo City",
         timezone: "Central",
     },
@@ -94,12 +85,9 @@ export const cities = [
         id: 8,
         name: "San Diego",
         state: "California",
-        region: "Southern California",
         population: "1,386,932",
-        image: {
-            url: "https://images.unsplash.com/photo-1603725117928-6f09697f34aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
-            alt: "san-diego",
-        },
+        img: Image8,
+        alt: 'san-diego',
         nickname: "The City in Motion",
         timezone: "Pacific",
     },
@@ -107,12 +95,9 @@ export const cities = [
         id: 9,
         name: "Dallas",
         state: "Texas",
-        region: "Southwest",
         population: "1,304,379",
-        image: {
-            url: "https://images.unsplash.com/photo-1621904878414-d4ca4756bd7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-            alt: "dallas",
-        },
+        img: Image9,
+        alt: 'dallas',
         nickname: "The Big D",
         timezone: "Central",
     },
@@ -120,12 +105,9 @@ export const cities = [
         id: 10,
         name: "Austin",
         state: "Texas",
-        region: "Southwest",
         population: "1,061,855",
-        image: {
-            url: "https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            alt: "austin",
-        },
+        img: Image10,
+        alt: 'austin',
         nickname: "The Live Music Capital of the World",
         timezone: "Central",
     },
